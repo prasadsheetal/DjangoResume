@@ -1,0 +1,78 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ developer.name }}'s Profile</title>
+    <link rel="stylesheet" href="{% static 'css/main.css' %}">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Montserrat:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="profile-header">
+        <img src="{% static 'images/sheets.jpeg' %}" alt="Profile Picture" class="profile-photo">
+        <h1 class="profile-name">Hi, I'm {{ developer.name }}!</h1>
+        <p class="profile-contact">{{ developer.contact }}</p>
+        <p class="profile-bio">{{ developer.bio }}</p>
+    </div>
+
+    <div class="container">
+        <div class="card">
+            <h2>Education</h2>
+            <ul>
+                <li><strong>Masters in Computer Science</strong>, New York University, USA (2024-Present)
+                    <br>Relevant coursework: Machine Learning, Big Data, Information Visualization , Software Engineering, Deep Learning, Design and Analysis of Algorithm
+                </li>
+                <li><strong>B.Tech in Computer Science Engineering (IoT specialization)</strong>, SRM Institute of Science and Technology, India (2018-2022)
+                    <br>- CGPA: 9.53/10
+                </li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>Technical Skills</h2>
+            <ul>
+                <li><strong>Languages & Frameworks:</strong> Python, C++, Java, TypeScript, Angular</li>
+                <li><strong>Tools & Libraries:</strong> OpenCV, Tensorflow, Sci-Kit Learn, Pandas, NumPy, NodeJS, Spring Boot</li>
+                <li><strong>Databases & Cloud:</strong> MySQL, MongoDB, PostgreSQL, Azure, IoT</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>Professional Experience</h2>
+            <ul>
+                <li><strong>Developer – Retail Strategic Initiatives (Tata Consultancy Services, India)</strong> (May 2022 - July 2024)
+                    <br>- Developed a web app that improved user satisfaction by 30% and reduced load times by 40%.
+                </li>
+                <li><strong>Intern – Retail Strategic Initiatives (Tata Consultancy Services)</strong> (Feb 2022 – Apr 2022)
+                    <br>- Built an Angular library for charts that reduced development time by 50%.
+                </li>
+                <li><strong>Intern – Robotics Department (Defence Research & Development Organization)</strong> (Mar 2021 - Jun 2021)
+                    <br>- Designed a robotic console with wireless communication and achieved a 90% success rate in testing.
+                </li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>Projects</h2>
+            <ul>
+                <li><strong>File Sharing through Blockchain</strong> (Feb 2021)
+                    <br>- Developed a decentralized platform for secure file sharing, supporting 1,000 concurrent users.
+                </li>
+                <li><strong>Ethical Hacking using OWASP</strong> (Aug 2020)
+                    <br>- Conducted security assessments and identified over 30 critical vulnerabilities.
+                </li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>Extracurricular Activities</h2>
+            <ul>
+                <li>Delivered workshops on AI, Web Development, Cloud Computing, and UI/UX from 2019 to 2022.</li>
+                <li> Published three patents in India and one in Germany on innovation and technology.</li>
+                <li>Authored two book chapters and three research papers in IEEE Xplore and other Scopus-indexed journals.</li>
+                <li>Active member of the Association for Computing Machinery (ACM), contributing to global tech development.</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
