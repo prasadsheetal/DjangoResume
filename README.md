@@ -16,7 +16,7 @@ git clone https://github.com/prasadsheetal/DjangoResume.git
 cd DjangoResume
 ```
 
-### 2️⃣ Create and Activate a Virtual Environment (Recommended)
+### 2.Create and Activate a Virtual Environment (Recommended)
 To prevent conflicts with system dependencies, create a virtual environment:
 
 ```sh
