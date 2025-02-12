@@ -40,8 +40,23 @@ Run the following command to install required dependencies:
 pip install -r requirements.txt
 ```
 
+### 4. Apply Database Migrations
+Run the following command to set up the database:
+
+```sh
+python manage.py migrate
+```
+
 If requirements.txt is missing, manually install Django:
 
 ```sh
 pip install django
 ```
+ ### 5. Run the Development Server
+Start the Django application:
+
+```sh
+python manage.py runserver
+```
+The application will be available at:
+🌐 http://127.0.0.1:8000/
