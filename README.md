@@ -14,6 +14,7 @@ A Django-based web application to showcase your resume and portfolio. This proje
 ```bash
 git clone https://github.com/prasadsheetal/DjangoResume.git
 cd DjangoResume
+```
 
 ### 2️⃣ Create and Activate a Virtual Environment (Recommended)
 To prevent conflicts with system dependencies, create a virtual environment:
