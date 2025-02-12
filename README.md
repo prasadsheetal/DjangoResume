@@ -31,5 +31,17 @@ venv\Scripts\activate
 Mac/Linux:
 
 ```sh
-source venv/bin/activate
+venv/bin/activate
+```
+### 3. Install Dependencies
+Run the following command to install required dependencies:
+
+```sh
+pip install -r requirements.txt
+```
+
+If requirements.txt is missing, manually install Django:
+
+```sh
+pip install django
 ```
