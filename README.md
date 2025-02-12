@@ -21,3 +21,12 @@ To prevent conflicts with system dependencies, create a virtual environment:
 
 ```sh
 python -m venv venv
+```
+Activate the virtual environment:
+
+Windows:
+
+venv\Scripts\activate
+Mac/Linux:
+
+source venv/bin/activate
