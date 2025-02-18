@@ -56,6 +56,9 @@ pip install django
 Start the Django application:
 
 ```sh
+
+### Project Structure
+
 python manage.py runserver
 ```
 The application will be available at:
