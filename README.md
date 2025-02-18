@@ -56,13 +56,6 @@ pip install django
 Start the Django application:
 
 ```sh
-```
-### Project Structure
-djangoresume/ - The main Django project directory.
-├── resume/ - The app directory containing templates, views, models, and URLs.
-├── static/ - Directory for static files like CSS.
-├── templates/ - Directory containing HTML templates.
-└── requirements.txt - File to list Python dependencies.
 
 python manage.py runserver
 ```
