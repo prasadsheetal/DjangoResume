@@ -63,8 +63,8 @@ The application will be available at:
 🌐 http://127.0.0.1:8000/
 
 ### Project Structure
-djangoresume/ - The main Django project directory.
-├── knowmebetter/ - The app directory containing templates, views, models, and URLs.
-├── static/ - Directory for static files like CSS.
-├── templates/ - Directory containing HTML templates.
-└── requirements.txt - File to list Python dependencies.
+**djangoresume/** - The main Django project directory.  
+├── **knownebetter/** - The app directory containing templates, views, models, and URLs.  
+├── **static/** - Directory for static files like CSS.  
+├── **templates/** - Directory containing HTML templates.  
+└── **requirements.txt** - File to list Python dependencies.  
